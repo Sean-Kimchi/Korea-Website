@@ -1,0 +1,96 @@
+#title {
+  font-size: 50px;
+  text-shadow: 3px 3px #aaaaaa;
+  text-align: center;
+}
+#title a {
+  font-size: 50px;
+  text-decoration: none;
+  text-align:center;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  background-color: rgb(226, 226, 226);
+}
+
+#header {
+  background-color:#fff982d5;
+  text-align: center;
+  border: 5px double #dbff0ed5;
+  margin: -8px -7px 0px -7px;
+  padding-top: 5px;
+}
+#leftVideo {
+  float: left;
+}
+#rightVideo {
+  float: right;
+}
+
+#logo { 
+  flex: left;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+}
+
+#navbar {
+ display: flex;
+ justify-content: space-evenly;
+}
+
+#navbar a {
+ text-decoration: none;
+ font-size: 14px;
+ color: rgb(0, 0, 0);
+}
+#navbar li {
+ list-style-type: none;
+ border: 2px solid black;
+ border-radius: 30px;
+ padding: 10px;
+ background-color: rgb(255, 251, 181);
+ box-shadow: 3px 3px #cccccc;
+ width: 50px;
+}
+#navbar li:hover {
+ background-color: #fffece;
+}
+#paragraph {
+ border: 2px solid black;
+ border-radius: 15px;
+ padding: 10px;
+ margin:50px;
+}
+
+.intro {
+  text-align:center;
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+#flight {
+  text-align:center;
+  color:rgb(85, 85, 85);
+  font-size: 25px;
+}
+
+#welcome-message {
+  text-align:center;
+  color: black;
+  font-size: 50px;
+}
+
+#koreanGate {
+  height: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
+}
+
+.korean_barbeque {
+  width: 800px;
+  height:500px;
+}
