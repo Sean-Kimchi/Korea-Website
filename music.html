@@ -6,16 +6,35 @@
   <body>
 
     <div id="header">
-      <h1 id='title'><a href="index.html">Welcome to Korea</a></h1>
+      <h1 id='title'><a href="index.html"><img class ='home_img' src='https://i.pinimg.com/originals/48/bc/d6/48bcd68d718226b7febeb4407548953d.png'> </img>  Welcome to Korea <img class ='home_img' src='https://i.pinimg.com/originals/48/bc/d6/48bcd68d718226b7febeb4407548953d.png'> </img> </a></h1>
       <ul id="navbar">
-        <a href="food.html"><li>Food</li></a>
-        <a href="music.html"><li>Music</li></a>
-        <a href="art.html"><li>Art</li></a>
-        <a href="history.html"><li>History</li></a>
+        <a href="food.html">
+          <li id="food">Food</li>
+        </a>
+        <a href="music.html">
+          <li id="music">Music</li>
+        </a>
+        <a href="recreation.html">
+          <li id="recreation">Recreation</li>
+        </a>
+        <a href="history.html">
+          <li id="history">History</li>
+        </a>
       </ul>
     </div>
 
-    <p>Music</p>
-    
+    <p class='intro'>Have you ever heard of K-pop<br>You might not have<br> It's not like there are 90 million+ international fans or anything<br>It obviously doesn't have one of the most dedicated fanbases in all of media history</p>
+    <p class='intro'> Just in case, I've posted a Youtube playlist just for you folks</p>
+
+    <iframe class='playlist' width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLOHoVaTp8R7dfrJW5pumS0iD_dhlXKv17" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+   
+    <p class='intro'>If you're already familiar with, or don't enjoy pop or hip hop<br>You can check out the boomer music (featuring random ballads) that I like to listen to</p>
+
+    <iframe class='playlist' width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLzrNVI-euOyxxPt9VbibuvIH66eMlAV2o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <script>
+      document.getElementById("music").style.backgroundColor = "pink";
+    </script>
     <script src="script.js"></script>
 </html>
